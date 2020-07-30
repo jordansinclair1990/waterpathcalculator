@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/waterpathcalculator/static/css/main.28a389be.chunk.css",
+    "main.js": "/waterpathcalculator/static/js/main.f74efd13.chunk.js",
+    "main.js.map": "/waterpathcalculator/static/js/main.f74efd13.chunk.js.map",
+    "runtime-main.js": "/waterpathcalculator/static/js/runtime-main.2e6fe962.js",
+    "runtime-main.js.map": "/waterpathcalculator/static/js/runtime-main.2e6fe962.js.map",
+    "static/js/2.fc4f36aa.chunk.js": "/waterpathcalculator/static/js/2.fc4f36aa.chunk.js",
+    "static/js/2.fc4f36aa.chunk.js.map": "/waterpathcalculator/static/js/2.fc4f36aa.chunk.js.map",
+    "index.html": "/waterpathcalculator/index.html",
+    "precache-manifest.72c8772914df207ae86051e136b2af7c.js": "/waterpathcalculator/precache-manifest.72c8772914df207ae86051e136b2af7c.js",
+    "service-worker.js": "/waterpathcalculator/service-worker.js",
+    "static/css/main.28a389be.chunk.css.map": "/waterpathcalculator/static/css/main.28a389be.chunk.css.map",
+    "static/js/2.fc4f36aa.chunk.js.LICENSE.txt": "/waterpathcalculator/static/js/2.fc4f36aa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e6fe962.js",
+    "static/js/2.fc4f36aa.chunk.js",
+    "static/css/main.28a389be.chunk.css",
+    "static/js/main.f74efd13.chunk.js"
+  ]
+}
