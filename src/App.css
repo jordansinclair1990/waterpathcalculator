@@ -1,0 +1,214 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #101010;
+}
+
+.inner-header {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo-container {
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo-container h1 {
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.navigation {
+  float: right;
+  height: 100%;
+}
+
+.navigation a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+  color: white;
+}
+
+.navigation a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  font-size: 20px;
+}
+
+body {
+  background: rgb(235, 243, 255);
+  background: -moz-linear-gradient(
+    107deg,
+    rgba(235, 243, 255, 1) 0%,
+    rgba(18, 78, 226, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    107deg,
+    rgba(235, 243, 255, 1) 0%,
+    rgba(18, 78, 226, 1) 100%
+  );
+  background: linear-gradient(
+    107deg,
+    rgba(235, 243, 255, 1) 0%,
+    rgba(18, 78, 226, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ebf3ff",endColorstr="#124ee2",GradientType=1);
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 0 20px;
+}
+
+.contact-form {
+  max-width: 550px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.msg {
+  width: 48%;
+}
+
+.input-fields .input,
+.msg p {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #c5ecfd;
+  padding: 10px;
+  color: #c5ecfd;
+  width: 100%;
+}
+
+.msg p {
+  height: 220px;
+}
+
+::-webkit-input-placeholder {
+  color: #c5ecfd;
+}
+
+::-moz-input-placeholder {
+  color: #c5ecfd;
+}
+
+::-ms-input-placeholder {
+  color: #c5ecfd;
+}
+
+.btn {
+  background: #39b7dd;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-form {
+    flex-direction: column;
+  }
+
+  .msg p {
+    height: 80px;
+  }
+
+  .input-fields,
+  .msg {
+    width: 100%;
+  }
+}
+
+select,
+option {
+  background-color: #282c34;
+  color: #c5ecfd;
+  margin-top: 12px;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
